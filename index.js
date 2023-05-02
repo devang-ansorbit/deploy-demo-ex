@@ -14,6 +14,11 @@ app.get('/', (req, res) => {
   res.send('Hey this is my API running 🥳')
 })
 
+app.get('/ping',(req, res)=>{
+  res.send('Pong 🍫');
+})
+
+
 app.get('/about', (req, res) => {
   res.send('This is my about route..... ')
 })
