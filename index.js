@@ -15,5 +15,9 @@ app.get('/about', (req, res) => {
   res.send('This is my about route..... ')
 })
 
+app.get('/ping',(req, res)=>{
+  res.send('Pong 🍫');
+})
+
 // Export the Express API
 module.exports = app
